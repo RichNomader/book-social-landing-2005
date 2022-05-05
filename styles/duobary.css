@@ -1,6 +1,8 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
 * {
     font-family: "Pretendard" !important;
-  }
+}
 
 body {
     margin: 0;
@@ -35,7 +37,7 @@ footer {
     width: 100%;
     padding: 32px 0px 24px 0px;
     border-top: 1px solid #d4d4d4;
-    background-color: #ffffff;
+    background-color: #e5e5e5;
     color: #000000;
 }
 
@@ -79,7 +81,7 @@ a:active{text-decoration: none; color:black}
 
 .top-banner__image {
     width: 100%;
-    height: 677px;
+    height: 670px;
     object-fit: cover;
 }
 
@@ -92,16 +94,18 @@ a:active{text-decoration: none; color:black}
 }
 
 .top-banner__title {
-    font-size: 32px;
+    font-size: 36px;
     color: white;
     margin-bottom: 42px;
     line-height: 160%;
+    font-weight: 700;
 }
 
 .top-banner__text {
     font-size: 18px;
     color: white;
     line-height: 137.5%;
+    font
 }
 
 
@@ -172,6 +176,16 @@ a:active{text-decoration: none; color:black}
     flex-direction: column; 
 }
 
+.bottom-banner__logo {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
 .bottom-banner__title {
     color: #f5f5f5;
     text-align: center;
@@ -179,6 +193,7 @@ a:active{text-decoration: none; color:black}
     font-weight: 700;
     font-size: 36px;
     line-height: 64px;
+    margin-bottom: 110px;
 }
 
 .bottom-banner__cta-button {
@@ -188,12 +203,11 @@ a:active{text-decoration: none; color:black}
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 95px;
     border-radius: 15px;
 }
 
 .bottom-banner__text {
-    font-size: 28px;
+    font-size: 24px;
     color: white;
     text-align: center;
     line-height: 160%;
@@ -216,36 +230,33 @@ a:active{text-decoration: none; color:black}
     justify-content: space-evenly;
 }
   
-.footer__top__info__external-link {
-    width: 143px;
-    margin: 0px 24px;
-}
-  
 .footer__top__info__title {
-    margin-bottom: 16.5px;
+    margin-bottom: 20px;
     font-size: 16px;
 }
   
 .external-link__wrapper {
     display: flex;
+    justify-content: start;
 }
   
 .external-link__icon {
     width: 20px;
     height: 20px;
-    margin: 0px 8px 17px 0px;
+    margin-right: 8px;
 }
   
 .external-link__name {
-    height: 20px;
+    height: 34px;
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Noto Sans KR";
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
 }
-  
+
 .footer__top__info__detail {
     font-size: 12px;
     line-height: 150%;
@@ -278,7 +289,7 @@ a:active{text-decoration: none; color:black}
 .ellipse-image {
     width: 4px;
     height: 4px;
-    margin: 4.5px 8px;
+    margin: 8px 8px;
     object-fit: cover;
 }
 
