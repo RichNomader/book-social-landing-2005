@@ -7,10 +7,16 @@
 body {
     margin: 0;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 1024px;
+    width:100vw;
     height:auto;
+    align-items:center;
+}
+
+.wrapper {
+    width:1024px;
 }
 
 header {
@@ -28,8 +34,8 @@ header {
 }
 
 main {
+    width: 100%;    
     background-color: #e5e5e5;
-    width: 100%;
     height: auto;
     z-index: -1;
 }
