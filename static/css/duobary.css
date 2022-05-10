@@ -308,8 +308,8 @@ a:active{text-decoration: none; color:black}
         display: flex;
         position: absolute;
         width: 360px;
-        height: 341.5gpx;
-        object-fit:contain;
+        height: 342px;
+        object-fit:cover;
         background-image: url("../../static/assets/img/2.main/bottom-banner_phone.png");
     }
 }
