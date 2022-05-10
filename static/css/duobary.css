@@ -307,9 +307,9 @@ a:active{text-decoration: none; color:black}
     .bottom-banner__image {
         display: flex;
         position: absolute;
-        width: 390px;
-        height: 370px;
-        object-fit: cover;
+        width: 360px;
+        height: 341.5gpx;
+        object-fit:contain;
         background-image: url("../../static/assets/img/2.main/bottom-banner_phone.png");
     }
 }
